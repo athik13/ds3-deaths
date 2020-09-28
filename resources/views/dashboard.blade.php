@@ -10,6 +10,7 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <div class="mt-20 mb-20">
                     <p class="text-6xl text-center">GitGud</p>
+                    <img src="/memes/2a8yr9.jpg" alt="">
                 </div>
             </div>
         </div>
