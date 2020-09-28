@@ -53,7 +53,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/death-counter/{run}', fun
 
     $deaths = Death::where('user_id', auth()->user()->id)->where('run_id', $run->id)->get();
 
-    return view('deaths.run', compact('run', 'deaths'));
+    $total_deaths = $deaths->sum('death_count');
+
+    return view('deaths.run', compact('run', 'deaths', 'total_deaths'));
 });
 
 Route::post('save-deaths', function(Request $request) {

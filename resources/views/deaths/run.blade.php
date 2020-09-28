@@ -8,7 +8,7 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <p class="text-4xl m-4">Dark Souls 3 - Run #{{ $run->run }}</p>
+                <p class="text-4xl m-4">Dark Souls 3 - Run #{{ $run->run }} - Total Deaths: <span class="text-red-500">{{ $total_deaths }}</span></p>
                 <hr>
                 <div class="flex justify-center">
                 <table class="table-fixed w-5/6 m-4">
