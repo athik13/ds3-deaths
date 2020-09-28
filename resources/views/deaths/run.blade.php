@@ -14,9 +14,9 @@
                 <table class="table-fixed w-5/6 m-4">
                     <thead>
                         <tr>
-                            <th class="w-1/2 px-4 py-2">Boss</th>
+                            <th class="w-1/3 px-4 py-2">Boss</th>
                             <th class="w-1/4 px-4 py-2">Deaths</th>
-                            <th class="w-1/4 px-4 py-2">Notes</th>
+                            <th class="w-1/2 px-4 py-2">Notes</th>
                         </tr>
                     </thead>
                     <tbody>
